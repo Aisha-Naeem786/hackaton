@@ -41,8 +41,11 @@
 }
 .reacted{
     position: relative;
-    bottom: 100px;
-    left: 500px;
+    bottom: -200px;
+    left: 200px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
 }
 .parent{
     background-color: white;
@@ -61,10 +64,32 @@
     text-transform: capitalize;
     color: gray;
 }
-
-
-
-
+.recent{
+    margin-top: 300px;
+}
+.recently{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.more{
+    color: #7C4EE4 !important;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bgcolour{
+    background-color: #7C4EE4;
+}
+.start{
+    border: 1px solid white;
+    background-color: #7C4EE4;
+    border-radius: 4px;
+    color: #fff;
+}
 
 
 
