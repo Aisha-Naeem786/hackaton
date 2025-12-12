@@ -1,0 +1,79 @@
+.registerBtn {
+    background-color: #7C4EE4;
+    border: 1px solid #7C4EE4;
+    height: 49.49px;
+    width: 148.25px;
+    color: #fff;
+    border-radius: 2.78px;
+    text-transform: capitalize;
+}
+
+.registerBtn:hover {
+    background-color: #7C4EE4!important;
+    color: #fff;
+}
+
+.navbar-nav {
+    gap: 20.71px;
+}
+.blog{
+    color: #7C4EE4 !important;
+    text-transform: capitalize;
+}
+.colour{
+    background-color: #7C4EE4;
+}
+.post{
+    text-transform: capitalize;
+    color: white;
+}
+.read{
+     background-color: white;
+    border: 1px solid white;
+    height: 49.49px;
+    width: 148.25px;
+    color: black;
+    border-radius: 2.78px;
+    text-transform: capitalize;
+}
+.react{
+    position: absolute;
+}
+.reacted{
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+}
+.parent{
+    background-color: white;
+    width: 100%;
+}
+.pic{
+    width: 100%;
+}
+.game{
+    text-transform: capitalize;
+}
+.develop{
+    text-transform: capitalize;
+}
+.date{
+    text-transform: capitalize;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .navbar-nav li{
+        text-align: center;
+    }
+}
